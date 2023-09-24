@@ -327,7 +327,7 @@ GameObject:
   - component: {fileID: 380987121}
   - component: {fileID: 380987120}
   m_Layer: 7
-  m_Name: SimplePlatform (2)
+  m_Name: KillPlane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1525,9 +1525,9 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 517535378}
   - {fileID: 1614165588}
-  - {fileID: 380987123}
-  - {fileID: 68884634}
   - {fileID: 1076321228}
+  - {fileID: 68884634}
+  - {fileID: 380987123}
   - {fileID: 24975995}
   - {fileID: 1229000036}
   - {fileID: 615559518}
