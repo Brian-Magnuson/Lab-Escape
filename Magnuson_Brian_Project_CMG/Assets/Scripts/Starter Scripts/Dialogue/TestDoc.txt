@@ -1,0 +1,3 @@
+[NAME=NPC][SPEAKERSPRITE=NPC] WARNING : Honeybees at work
+[NAME=Bear][SPEAKERSPRITE=Bear] ....This is the shortest way to get home
+[NAME=NPC][SPEAKERSPRITE=NPC] Proceed with Caution

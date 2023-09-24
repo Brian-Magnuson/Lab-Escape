@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9358529db3a2cff4292cc9825161d8c9, type: 3}
+  m_Name: New_Library
+  m_EditorClassIdentifier: 
+  speakerLibrary:
+  - name: Bear
+    sprite: {fileID: 1563226477, guid: 3037c115607bee54991a257355c74c86, type: 3}
+  - name: NPC
+    sprite: {fileID: 21300000, guid: 02791c930f27f8b43848577ac3ae4843, type: 3}
