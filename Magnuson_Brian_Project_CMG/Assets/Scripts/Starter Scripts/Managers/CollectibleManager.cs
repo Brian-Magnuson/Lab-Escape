@@ -13,13 +13,13 @@ public class CollectibleManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        collectibles.text = "Honey :  " + collected;
+        collectibles.text = "Score   " + collected;
     }
 
     public void Collected(int value)

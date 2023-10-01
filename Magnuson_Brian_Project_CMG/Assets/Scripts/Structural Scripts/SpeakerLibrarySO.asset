@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9358529db3a2cff4292cc9825161d8c9, type: 3}
-  m_Name: New_Library
+  m_Name: SpeakerLibrarySO
   m_EditorClassIdentifier: 
   speakerLibrary:
-  - name: Bear
-    sprite: {fileID: 1563226477, guid: 3037c115607bee54991a257355c74c86, type: 3}
-  - name: NPC
-    sprite: {fileID: 21300000, guid: 02791c930f27f8b43848577ac3ae4843, type: 3}
+  - name: Player
+    sprite: {fileID: 21300000, guid: ec1875e52ec93f44a9412f5bb336497b, type: 3}
+  - name: Sign
+    sprite: {fileID: 21300000, guid: 539e68cb5fed34b4e8b2edb05bac8932, type: 3}
