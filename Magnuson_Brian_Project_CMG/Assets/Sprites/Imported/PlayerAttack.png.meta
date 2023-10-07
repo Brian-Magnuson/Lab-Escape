@@ -110,106 +110,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Number8Attack_0
+      name: PlayerAttack_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 56
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b88ff6dba62b8c4094c04950424a5c5
-      internalID: -1028886693
+      spriteID: 0f0bb74271510bb46b98b691a898e879
+      internalID: -812719005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Number8Attack_1
+      name: PlayerAttack_1
       rect:
         serializedVersion: 2
         x: 56
         y: 0
         width: 56
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c95060911de4edb408c36e3d15ce7db2
-      internalID: -918509420
+      spriteID: 2e71fe1ba5affa9498155aab0b05a214
+      internalID: -749923291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Number8Attack_2
+      name: PlayerAttack_2
       rect:
         serializedVersion: 2
         x: 112
         y: 0
         width: 56
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f5ac77a79fb9ef439a9c80b5a4a4f79
-      internalID: -189256106
+      spriteID: 47a31b29939445143a3e20ee17beaf33
+      internalID: 1181503011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Number8Attack_3
+      name: PlayerAttack_3
       rect:
         serializedVersion: 2
         x: 168
         y: 0
         width: 56
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a355acc92fc0c4744aecd5c008d19181
-      internalID: -628718636
+      spriteID: 1fd8635e99ef91c4896148f73ffb161a
+      internalID: -1586021073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Number8Attack_4
+      name: PlayerAttack_4
       rect:
         serializedVersion: 2
         x: 224
         y: 0
         width: 56
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37a0fa444afb4f749968acf56ff6ece4
-      internalID: -2124355072
+      spriteID: 3798657f14d3265459efd01d90bb6156
+      internalID: -471309690
       vertices: []
       indices: 
       edges: []
@@ -225,11 +225,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Number8Attack_0: -1028886693
-      Number8Attack_1: -918509420
-      Number8Attack_2: -189256106
-      Number8Attack_3: -628718636
-      Number8Attack_4: -2124355072
+      PlayerAttack_0: -812719005
+      PlayerAttack_1: -749923291
+      PlayerAttack_2: 1181503011
+      PlayerAttack_3: -1586021073
+      PlayerAttack_4: -471309690
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
