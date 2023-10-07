@@ -783,9 +783,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponList: []
-  weapon: {fileID: 0}
+  weapon: {fileID: 1541660741}
   coolDown: 0.4
-  player: {fileID: 0}
+  player: {fileID: 517535375}
 --- !u!114 &517535381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3475,7 +3475,7 @@ MonoBehaviour:
   alignmnent: 0
   weaponType: 0
   damageValue: 20
-  collider: {fileID: 0}
+  collider: {fileID: 1541660742}
   projectile: {fileID: 0}
   direction: {x: 1, y: 0}
   force: 100
