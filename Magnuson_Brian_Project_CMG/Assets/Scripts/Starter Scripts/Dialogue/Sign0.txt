@@ -1,0 +1,4 @@
+[NAME=Sign][SPEAKERSPRITE=Sign] How to slap jellies
+[NAME=Sign][SPEAKERSPRITE=Sign] Step 1: Walk up to a jelly.
+[NAME=Sign][SPEAKERSPRITE=Sign] Step 2: Use [Left Mouse Button].
+[NAME=Sign][SPEAKERSPRITE=Sign] Step 3: Revel in the might of your jelly slapping abilities.
