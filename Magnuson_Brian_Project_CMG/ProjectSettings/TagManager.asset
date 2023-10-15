@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Weapon
   - Platform
+  - Enemy
   layers:
   - Default
   - TransparentFX
