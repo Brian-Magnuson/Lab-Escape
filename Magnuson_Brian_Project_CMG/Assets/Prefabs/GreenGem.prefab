@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6346990198624362386}
   - component: {fileID: 6668672216682077735}
   - component: {fileID: 8534591397439564923}
+  - component: {fileID: 1244022201124748914}
   m_Layer: 0
   m_Name: GreenGem
   m_TagString: Untagged
@@ -145,3 +146,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCollectible: 1
   collectibleValue: 100
+--- !u!114 &1244022201124748914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4102228808677171684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ebe6c80f22dd44180702e0239dbefb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  degreesPerSecond: 0
+  amplitude: 0.05
+  frequency: 1.5
