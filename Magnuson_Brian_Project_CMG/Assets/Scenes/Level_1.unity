@@ -1463,7 +1463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxXBoundary: 24
-  MinXBoundary: -11.5
+  MinXBoundary: -11
   MaxYBoundary: 9.6
   MinYBoundary: -0.5
   clampCamera: 1
