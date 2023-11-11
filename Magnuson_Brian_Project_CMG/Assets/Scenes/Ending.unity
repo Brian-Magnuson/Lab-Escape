@@ -377,7 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 420a2ca664ca3f345bc17b6d7d48034a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelIndex: 0
+  levelIndex: 2
   useGameSceneManager: 1
 --- !u!61 &179643353
 BoxCollider2D:
