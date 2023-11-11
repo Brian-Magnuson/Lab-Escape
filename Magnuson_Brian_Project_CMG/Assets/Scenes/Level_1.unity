@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 24975996}
   - component: {fileID: 24975997}
   - component: {fileID: 24975998}
+  - component: {fileID: 24975999}
   m_Layer: 0
   m_Name: Managers
   m_TagString: SceneManager
@@ -237,6 +238,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   killCountText: {fileID: 1656276146}
+--- !u!114 &24975999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24975992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6110785e77fd18e45b1d9ad700cca721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &128385858
 GameObject:
   m_ObjectHideFlags: 0
