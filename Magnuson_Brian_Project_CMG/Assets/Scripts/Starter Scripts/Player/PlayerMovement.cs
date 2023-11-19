@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private bool isJumping = false;
-    
+
     [Tooltip("This means that you're 1D character is facing left by default (1D means you only face left or right)")]
     public bool isFlipped = false;
 
@@ -44,14 +44,18 @@ public class PlayerMovement : MonoBehaviour
     public bool disabled = false;
 
     [Header("Raycast Jumping  -MOST RELIABLE-")]
-    
+
     private bool canJump;
     private bool cantJump;
     public Transform groundCheck;
     public LayerMask JumpLayer;
     public LayerMask NoJumpLayer;
     public float rayLength;
-      
+
+    [Header("Audio Delays")]
+    [SerializeField] private float walkDelay = 0.5f;
+    [SerializeField] private float attackDelay = 0.5f;
+
 
     float lastVelocity = 1;
 
@@ -62,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
         playerAttack = GetComponent<PlayerAttack>();
         rb = GetComponent<Rigidbody2D>();
         jumpsLeft = extraJumpsValue;
-        
+
     }
 
     void Update()
@@ -78,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
         {
             HorizontalMovement = Input.GetAxisRaw("Horizontal");
             VerticleMovement = Input.GetAxisRaw("Vertical");
-            
+
 
 
             if (canJump | cantJump)
@@ -89,16 +93,16 @@ public class PlayerMovement : MonoBehaviour
 
             if (Input.GetButtonDown("Jump") && jumpsLeft > 0 && !cantJump)
             {
-                
+
                 rb.velocity = Vector2.up * jumpForce;
                 jumpsLeft--;
                 HandleJumpAudio();
-                
+
             }
 
             else if (Input.GetButtonDown("Jump") && canJump == true)
             {
-                
+
                 rb.velocity = Vector2.up * jumpForce;
                 isJumping = false;
                 HandleJumpAudio();
@@ -242,11 +246,11 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = new Vector2(HorizontalMovement * PlayerMovementSpeed, rb.velocity.y);
         }
-        
+
         //Debug.Log(rb.velocity + " " + HorizontalMovement * PlayerMovementSpeed * Time.deltaTime);
     }
 
-   
+
 
     void HandlePlayerOrientation(float HorizontalVelocity)
     {
@@ -283,7 +287,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (!playerAudio.WalkSource.isPlaying && playerAudio.WalkSource.clip != null)
             {
-                playerAudio.WalkSource.Play();
+                playerAudio.WalkSource.PlayDelayed(walkDelay);
             }
         }
         else
@@ -301,7 +305,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (!playerAudio.AttackSource.isPlaying && playerAudio.AttackSource.clip != null)
             {
-                playerAudio.AttackSource.Play();
+                playerAudio.AttackSource.PlayDelayed(attackDelay);
             }
         }
         else
@@ -376,15 +380,15 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-   
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag("Platform") && rb.velocity.y <0)
+        if (other.gameObject.CompareTag("Platform") && rb.velocity.y < 0)
         {
-            
+
             this.transform.parent = other.gameObject.transform;
-            
+
         }
 
 
