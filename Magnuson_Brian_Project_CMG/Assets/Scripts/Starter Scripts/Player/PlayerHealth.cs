@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.LowLevel;
 using UnityEngine.UI;
+using TMPro;
 
 [RequireComponent(typeof(PlayerMovement))]
 public class PlayerHealth : MonoBehaviour
@@ -29,13 +30,15 @@ public class PlayerHealth : MonoBehaviour
 
     private PlayerMovement playerMovement;
 
+    public TMP_Text healthText;
+
 
     [HideInInspector] public int index = 0; //for editor uses
 
     void Start()
     {
-       SetUpHealth();
-       playerMovement = GetComponent<PlayerMovement>();
+        SetUpHealth();
+        playerMovement = GetComponent<PlayerMovement>();
     }
 
     public void SetUpHealth()
@@ -170,6 +173,8 @@ public class PlayerHealth : MonoBehaviour
             }
 
             HealthBar.GetComponent<Image>().fillAmount = fillAmount;
+
+            healthText.text = $"{currentHealth} / {maxHealth}";
         }
     }
 
