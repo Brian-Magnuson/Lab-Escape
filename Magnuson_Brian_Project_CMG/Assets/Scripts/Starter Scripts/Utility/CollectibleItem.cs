@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class CollectibleItem : MonoBehaviour
 {
     [Header("Collectible Manager: Collectible Options")]
@@ -10,7 +9,8 @@ public class CollectibleItem : MonoBehaviour
     public int collectibleValue = 1;
     private CollectibleManager cManager;
 
-    //This component is placed on any object that is a keyItem pick up and to be placed in your "inventory"
+    [Tooltip("Optional sound effect for when the item is collected.")]
+    [SerializeField] private AudioClip pickupSFX;
 
     private void Start()
     {
@@ -18,21 +18,23 @@ public class CollectibleItem : MonoBehaviour
         {
             cManager = FindObjectOfType<CollectibleManager>();
         }
-        
-        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.CompareTag("Player"))
         {
             if (isCollectible)
             {
                 cManager.Collected(collectibleValue);
+
+                if (pickupSFX)
+                {
+                    AudioSource.PlayClipAtPoint(pickupSFX, transform.position);
+                }
+
                 Destroy(gameObject);
-
             }
-
         }
     }
 }

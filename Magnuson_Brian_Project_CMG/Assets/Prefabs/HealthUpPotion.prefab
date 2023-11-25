@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6014901247457033717}
   - component: {fileID: 3306020409119847656}
   - component: {fileID: 6008552564161097844}
+  - component: {fileID: 6133043898381464852}
   m_Layer: 0
   m_Name: HealthUpPotion
   m_TagString: Untagged
@@ -160,3 +161,18 @@ MonoBehaviour:
   degreesPerSecond: 0
   amplitude: 0.05
   frequency: 1.5
+--- !u!114 &6133043898381464852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916579314165286121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e15ee124c778ec84782c000ae0911a26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCollectible: 1
+  collectibleValue: 500
+  pickupSFX: {fileID: 8300000, guid: 3f4aba8a629bde143b211363c0248ed6, type: 3}

@@ -6557,7 +6557,7 @@ MonoBehaviour:
   LoopDeathAudio: 0
   JumpAudioClip: {fileID: 8300000, guid: 54bf0c10dc019234abf3bcd226b4ab95, type: 3}
   LoopJumpAudio: 0
-  VolumeLevel: 1
+  VolumeLevel: 0.5
   WalkSource: {fileID: 0}
   AttackSource: {fileID: 0}
   DeathSource: {fileID: 0}
@@ -6705,8 +6705,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxXBoundary: 24
-  MinXBoundary: -11
-  MaxYBoundary: 9.6
+  MinXBoundary: -5
+  MaxYBoundary: 18.2
   MinYBoundary: -0.5
   clampCamera: 1
   PlayerCharacter: {fileID: 0}

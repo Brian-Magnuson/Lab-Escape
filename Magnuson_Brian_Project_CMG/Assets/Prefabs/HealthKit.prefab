@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4221757340235418870}
   - component: {fileID: 3371767016327695393}
   - component: {fileID: 2774640941421408230}
+  - component: {fileID: 6535807743522527040}
   m_Layer: 0
   m_Name: HealthKit
   m_TagString: Untagged
@@ -161,3 +162,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8815598, y: 0.7772111}
   m_EdgeRadius: 0
+--- !u!114 &6535807743522527040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2742301384694699388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e15ee124c778ec84782c000ae0911a26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCollectible: 1
+  collectibleValue: 100
+  pickupSFX: {fileID: 8300000, guid: 3f4aba8a629bde143b211363c0248ed6, type: 3}

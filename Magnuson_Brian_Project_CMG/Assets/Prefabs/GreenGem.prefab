@@ -241,6 +241,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCollectible: 1
   collectibleValue: 100
+  pickupSFX: {fileID: 8300000, guid: 526ea709238410c4882e431436b330ea, type: 3}
 --- !u!114 &1244022201124748914
 MonoBehaviour:
   m_ObjectHideFlags: 0
