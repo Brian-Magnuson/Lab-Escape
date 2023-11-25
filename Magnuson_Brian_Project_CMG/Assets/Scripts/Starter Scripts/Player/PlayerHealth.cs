@@ -204,6 +204,15 @@ public class PlayerHealth : MonoBehaviour
                     Destroy(collision.gameObject);
                 }
             }
+            if (collision.gameObject.TryGetComponent(out HealthBoost healthBoost))
+            {
+                maxHealth += healthBoost.HealthBoostAmount;
+                currentHealth += healthBoost.HealthBoostAmount;
+                UpdateHealthBar();
+
+                Destroy(collision.gameObject);
+
+            }
         }
     }
 

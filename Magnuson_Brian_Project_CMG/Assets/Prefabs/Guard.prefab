@@ -542,7 +542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec008724446ac6b49bec57fccf297e03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usePlayerStealth: 0
+  usePlayerStealth: 1
   isVisible: 0
   playerCollidePauseDuration: 0
   maxChaseDistance: 0
