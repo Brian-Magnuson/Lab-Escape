@@ -8,6 +8,8 @@ TagManager:
   - Platform
   - Enemy
   - SceneManager
+  - Cover
+  - Guard
   layers:
   - Default
   - TransparentFX
