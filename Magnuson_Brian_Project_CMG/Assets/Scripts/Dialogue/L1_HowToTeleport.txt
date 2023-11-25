@@ -1,0 +1,5 @@
+[NAME=Sign][SPEAKERSPRITE=Sign] Teleporter Instructions
+[NAME=Sign][SPEAKERSPRITE=Sign] Stand atop the teleporter and press [T].
+[NAME=Sign][SPEAKERSPRITE=Sign] You will be instantly teleported to the other side.
+[NAME=Sign][SPEAKERSPRITE=Sign] In the unlikely event that you teleport without your internal organs...
+[NAME=Sign][SPEAKERSPRITE=Sign] Please seek a medical doctor right away.

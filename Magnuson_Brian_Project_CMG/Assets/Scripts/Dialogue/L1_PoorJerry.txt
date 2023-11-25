@@ -1,0 +1,6 @@
+[NAME=Player][SPEAKERSPRITE=Player] It's looks like a memo
+[NAME=Sign][SPEAKERSPRITE=Sign] Jerry said the funniest thing yesterday.
+[NAME=Sign][SPEAKERSPRITE=Sign] He said that one of the jellies looked a lot like our buddy who disappeared the other day.
+[NAME=Sign][SPEAKERSPRITE=Sign] He even suggested that the guys up top are turning researchers into jellies.
+[NAME=Sign][SPEAKERSPRITE=Sign] He cracks me up every time.
+[NAME=Sign][SPEAKERSPRITE=Sign] It's a shame we'll never see him again.

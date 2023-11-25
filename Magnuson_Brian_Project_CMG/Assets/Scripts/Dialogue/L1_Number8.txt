@@ -1,0 +1,5 @@
+[NAME=Sign][SPEAKERSPRITE=Sign] Subject No. 8 Research Notes
+[NAME=Sign][SPEAKERSPRITE=Sign] No. 8 survived for a full 5 minutes yesterday before being incapacitated
+[NAME=Sign][SPEAKERSPRITE=Sign] Currently a new record from 4.5 minutes
+[NAME=Sign][SPEAKERSPRITE=Sign] Let's all show our support for No. 8!
+[NAME=Player][SPEAKERSPRITE=Player] What exactly are they doing here?

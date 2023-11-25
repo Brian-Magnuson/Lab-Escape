@@ -1,0 +1,4 @@
+[NAME=Sign][SPEAKERSPRITE=Sign] Research Notes
+[NAME=Sign][SPEAKERSPRITE=Sign] Introducing, the health-up serum!
+[NAME=Sign][SPEAKERSPRITE=Sign] Take one sip and you'll find yourself more healthy than before!
+[NAME=Sign][SPEAKERSPRITE=Sign] We promise it won't turn your body to mush!

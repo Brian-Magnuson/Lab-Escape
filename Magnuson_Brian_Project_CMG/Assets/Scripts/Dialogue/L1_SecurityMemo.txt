@@ -1,0 +1,4 @@
+[NAME=Sign][SPEAKERSPRITE=Sign] Please stop piling boxes everywhere
+[NAME=Sign][SPEAKERSPRITE=Sign] It's getting harder to move around the lab
+[NAME=Sign][SPEAKERSPRITE=Sign] Plus, someone could easily hide behind them where the guards cannot see
+[NAME=Sign][SPEAKERSPRITE=Sign] For the sake of our security, clean up after yourselves
