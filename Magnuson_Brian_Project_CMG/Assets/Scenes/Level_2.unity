@@ -7174,7 +7174,7 @@ MonoBehaviour:
   LoopWalkAudio: 0
   AttackAudioClip: {fileID: 8300000, guid: 23bb788c9c6085a4b967e4384955a9ed, type: 3}
   LoopAttackAudio: 0
-  DeathAudioClip: {fileID: 8300000, guid: eb06eaca3f48e594082012dcf5954c1c, type: 3}
+  DeathAudioClip: {fileID: 0}
   LoopDeathAudio: 0
   JumpAudioClip: {fileID: 8300000, guid: 54bf0c10dc019234abf3bcd226b4ab95, type: 3}
   LoopJumpAudio: 0
@@ -7195,7 +7195,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab016ef86d2a5e143be1580af9e24830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
   currentHealth: 100
   HealthIcons: {fileID: 0}
   HealthBar: {fileID: 6661278778173653537}
