@@ -1,0 +1,6 @@
+[NAME=Sign][SPEAKERSPRITE=Sign] A basic principle of fluids
+[NAME=Sign][SPEAKERSPRITE=Sign] If you have a low enough density
+[NAME=Sign][SPEAKERSPRITE=Sign] ...buoyant forces will allow you to float upward in the surrounding fluid
+[NAME=Sign][SPEAKERSPRITE=Sign] So naturally, we made floating water.
+[NAME=Sign][SPEAKERSPRITE=Sign] And now you can float while you float!
+[NAME=Sign][SPEAKERSPRITE=Sign] Give it a try!

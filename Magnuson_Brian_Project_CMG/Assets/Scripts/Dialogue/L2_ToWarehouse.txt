@@ -1,0 +1,2 @@
+[NAME=Sign][SPEAKERSPRITE=Sign] To Warehouse
+[NAME=Sign][SPEAKERSPRITE=Sign] It's heavily guarded lol

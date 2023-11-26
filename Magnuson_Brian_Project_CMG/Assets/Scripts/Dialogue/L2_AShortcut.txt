@@ -1,0 +1,3 @@
+[NAME=Sign][SPEAKERSPRITE=Sign] One-way shortcut to the Water Labs
+[NAME=Sign][SPEAKERSPRITE=Sign] Remember, T is for teleport
+[NAME=Sign][SPEAKERSPRITE=Sign] You should hold your breath
