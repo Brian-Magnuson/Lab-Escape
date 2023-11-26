@@ -7195,7 +7195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab016ef86d2a5e143be1580af9e24830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1000
+  maxHealth: 100
   currentHealth: 100
   HealthIcons: {fileID: 0}
   HealthBar: {fileID: 6661278778173653537}
@@ -7246,7 +7246,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -7995,7 +7995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 420a2ca664ca3f345bc17b6d7d48034a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelIndex: 1
+  levelIndex: 5
   useGameSceneManager: 1
 --- !u!212 &639409635
 SpriteRenderer:
@@ -16127,7 +16127,7 @@ PlatformEffector2D:
   m_RotationalOffset: 0
   m_UseOneWay: 1
   m_UseOneWayGrouping: 0
-  m_SurfaceArc: 180
+  m_SurfaceArc: 175
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1

@@ -483,7 +483,7 @@ PrefabInstance:
     - target: {fileID: 5806522018215215105, guid: 1716f5c5772470e4ca4c0ef41df9a9f2, type: 3}
       propertyPath: TextFileAsset
       value: 
-      objectReference: {fileID: 4900000, guid: 97968440432a90345b44258b04de1bba, type: 3}
+      objectReference: {fileID: 4900000, guid: cb826d84a00b0034697c094669ee9aa5, type: 3}
     - target: {fileID: 7181591535406301265, guid: 1716f5c5772470e4ca4c0ef41df9a9f2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.92
@@ -14327,7 +14327,7 @@ PlatformEffector2D:
   m_RotationalOffset: 0
   m_UseOneWay: 1
   m_UseOneWayGrouping: 0
-  m_SurfaceArc: 180
+  m_SurfaceArc: 175
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1

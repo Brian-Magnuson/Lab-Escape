@@ -10,7 +10,7 @@ public class PlayerHealth : MonoBehaviour
 {
     [Header("Health")]
     [Tooltip("The max health the player can have")]
-    public int maxHealth = 100;
+    public static int maxHealth = 100;
 
     [Tooltip("The current health the player has")]
     public int currentHealth;
