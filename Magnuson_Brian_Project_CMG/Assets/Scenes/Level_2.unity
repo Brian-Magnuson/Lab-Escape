@@ -1048,6 +1048,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5806522018215215105, guid: 1716f5c5772470e4ca4c0ef41df9a9f2, type: 3}
+      propertyPath: TextFileAsset
+      value: 
+      objectReference: {fileID: 4900000, guid: 12b9f751d4ee2bf4fb2ab0ea2243154f, type: 3}
     - target: {fileID: 7181591535406301265, guid: 1716f5c5772470e4ca4c0ef41df9a9f2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27.572227
@@ -7186,7 +7190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab016ef86d2a5e143be1580af9e24830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 1000
   currentHealth: 100
   HealthIcons: {fileID: 0}
   HealthBar: {fileID: 6661278778173653537}
@@ -7316,9 +7320,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4c6919a4cbf47542aaabe867d87e19b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxXBoundary: 24
-  MinXBoundary: -11
-  MaxYBoundary: 9.6
+  MaxXBoundary: 28.3
+  MinXBoundary: -34.5
+  MaxYBoundary: 35
   MinYBoundary: -0.5
   clampCamera: 1
   PlayerCharacter: {fileID: 0}
@@ -15659,6 +15663,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 1, y: 12, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 13, y: 12, z: 0}
     second:
       serializedVersion: 2
@@ -16021,13 +16035,13 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 80
+  - m_RefCount: 81
     m_Data: {fileID: 11400000, guid: 8164879057494a24792cfa863bfe57f6, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 80
+  - m_RefCount: 81
     m_Data: {fileID: 21300000, guid: ea4bdcbace4d268458e896778d170c2b, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 80
+  - m_RefCount: 81
     m_Data:
       e00: 1
       e01: 0
@@ -16046,7 +16060,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 80
+  - m_RefCount: 81
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -16233,6 +16247,14 @@ CompositeCollider2D:
       - X: 130000000
         Y: 128125000
       - X: 140000000
+        Y: 128125000
+    - - X: 20000000
+        Y: 130000000
+      - X: 10000000
+        Y: 130000000
+      - X: 10000000
+        Y: 128125000
+      - X: 20000000
         Y: 128125000
     - - X: -280000000
         Y: 130000000
@@ -16440,6 +16462,10 @@ CompositeCollider2D:
       - {x: 13.999971, y: 13}
       - {x: 13, y: 12.99997}
       - {x: 13.00003, y: 12.8125}
+    - - {x: 1.9999708, y: 12.8125}
+      - {x: 1.9999708, y: 13}
+      - {x: 1, y: 12.99997}
+      - {x: 1.0000293, y: 12.8125}
     - - {x: -28.000029, y: 12.8125}
       - {x: -28.000029, y: 13}
       - {x: -29, y: 12.99997}
