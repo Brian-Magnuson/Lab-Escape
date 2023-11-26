@@ -1,0 +1,2 @@
+[NAME=Sign][SPEAKERSPRITE=Sign] Diving chamber
+[NAME=Sign][SPEAKERSPRITE=Sign] Now with more teleporters!

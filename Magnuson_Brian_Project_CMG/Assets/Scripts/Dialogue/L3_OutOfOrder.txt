@@ -1,0 +1,2 @@
+[NAME=Sign][SPEAKERSPRITE=Sign] Lift out of order
+[NAME=Sign][SPEAKERSPRITE=Sign] Can someone fix it already?!

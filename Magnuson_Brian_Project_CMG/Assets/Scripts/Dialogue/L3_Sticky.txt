@@ -1,0 +1,7 @@
+[NAME=Sign][SPEAKERSPRITE=Sign] STICKY KEEEEEEEEEEEYYYYYYYYYYYYYYYYYYYSSSSSSSSSSSS
+[NAME=Player][SPEAKERSPRITE=Player] ...
+[NAME=Player][SPEAKERSPRITE=Player] There's a bunch of obfuscated text here.
+[NAME=Player][SPEAKERSPRITE=Player] I can barely make you what they were trying to say.
+[NAME=Sign][SPEAKERSPRITE=Sign] .......... LEAVE ......... US ...........
+[NAME=Sign][SPEAKERSPRITE=Sign] 88888888888888888888888888888888888888888
+[NAME=Player][SPEAKERSPRITE=Player] The sign is covered with jelly.

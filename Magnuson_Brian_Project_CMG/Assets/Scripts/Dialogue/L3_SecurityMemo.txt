@@ -1,0 +1,3 @@
+[NAME=Player][SPEAKERSPRITE=Player] It's looks like a note from one of the guards
+[NAME=Sign][SPEAKERSPRITE=Sign] Why did they stick me here? On a platform surrounded by floating water?
+[NAME=Sign][SPEAKERSPRITE=Sign] I have a fear of drowning...

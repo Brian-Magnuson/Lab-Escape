@@ -1,0 +1,6 @@
+[NAME=Sign][SPEAKERSPRITE=Sign] Attention all staff
+[NAME=Sign][SPEAKERSPRITE=Sign] As a reminder, in any controlled experiment, researchers must not interfere with the results
+[NAME=Sign][SPEAKERSPRITE=Sign] We do not condone falsification of any data whatsoever 
+[NAME=Sign][SPEAKERSPRITE=Sign] And that means that all test subjects are to remain in the lab at all times 
+[NAME=Sign][SPEAKERSPRITE=Sign] Anyone caught assisting a test subject in escaping... 
+[NAME=Sign][SPEAKERSPRITE=Sign] ...will be punished severely 

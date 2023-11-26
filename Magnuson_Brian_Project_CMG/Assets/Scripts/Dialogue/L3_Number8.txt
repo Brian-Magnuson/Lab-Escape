@@ -1,0 +1,8 @@
+[NAME=Sign][SPEAKERSPRITE=Sign] Subject No. 8 Research Notes
+[NAME=Sign][SPEAKERSPRITE=Sign] No. 8 loved to jump on some of the platforms around the lab
+[NAME=Sign][SPEAKERSPRITE=Sign] He seems to like jumping around a lot
+[NAME=Sign][SPEAKERSPRITE=Sign] Then he fell over and hurt himself
+[NAME=Sign][SPEAKERSPRITE=Sign] And so we changed the rules again
+[NAME=Sign][SPEAKERSPRITE=Sign] And now he can survive a fall from any height
+[NAME=Player][SPEAKERSPRITE=Player] ...
+[NAME=Player][SPEAKERSPRITE=Player] Are these really research notes?

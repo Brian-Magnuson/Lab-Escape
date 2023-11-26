@@ -1,0 +1,3 @@
+[NAME=Sign][SPEAKERSPRITE=Sign] The lab has been in an uproar since some of the researchers started supporting No. 8
+[NAME=Sign][SPEAKERSPRITE=Sign] Many of our colleagues have disappeared and security has been increased
+[NAME=Sign][SPEAKERSPRITE=Sign] We certainly don't support No. 8 and we definitely don't want him to survive!
