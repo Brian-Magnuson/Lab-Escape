@@ -517,7 +517,7 @@ Transform:
   m_GameObject: {fileID: 246585550}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.19, y: -1.52, z: 0}
+  m_LocalPosition: {x: 24.16, y: -1.52, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1465,11 +1465,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab016ef86d2a5e143be1580af9e24830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
   currentHealth: 100
   HealthIcons: {fileID: 0}
   HealthBar: {fileID: 0}
   useHealthBar: 1
+  healthText: {fileID: 0}
   index: 0
 --- !u!1 &519420028
 GameObject:
@@ -16149,7 +16149,7 @@ RectTransform:
   m_GameObject: {fileID: 4744727925373602038}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1229000036}

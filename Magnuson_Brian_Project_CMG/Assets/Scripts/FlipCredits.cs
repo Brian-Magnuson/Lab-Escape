@@ -22,7 +22,10 @@ public class FlipCredits : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetMouseButtonDown(0) && displayAfterCredits != null)
+        {
+            displayAfterCredits.SetActive(true);
+        }
     }
 
     IEnumerator RunCredits()
