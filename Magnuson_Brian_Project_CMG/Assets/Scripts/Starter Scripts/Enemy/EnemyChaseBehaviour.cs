@@ -75,10 +75,10 @@ public class EnemyChaseBehaviour : StateMachineBehaviour
             }
 
         }
-        
+
     }
 
-    private void OnTriggerStay2D(Collider2D other) 
+    private void OnTriggerStay2D(Collider2D other)
     {
         Vector2 lineToObject = (anim.transform.position - other.transform.position).normalized;
         anim.transform.position = Vector2.MoveTowards(anim.transform.position, -1 * lineToObject, speed * Time.deltaTime); // don't get too stuck on objects (barely noticeable)

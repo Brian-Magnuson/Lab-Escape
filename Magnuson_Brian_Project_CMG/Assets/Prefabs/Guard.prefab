@@ -545,8 +545,8 @@ MonoBehaviour:
   usePlayerStealth: 1
   isVisible: 0
   playerCollidePauseDuration: 0
-  maxChaseDistance: 0
-  EnemyReturnSpeed: 0
+  maxChaseDistance: 3
+  EnemyReturnSpeed: 3
   returnPosition: {x: 0, y: 0, z: 0}
   state: 1
 --- !u!114 &1733391325308814198
