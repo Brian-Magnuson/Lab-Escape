@@ -83,7 +83,14 @@ public class PlayerMovement : MonoBehaviour
             HorizontalMovement = Input.GetAxisRaw("Horizontal");
             VerticleMovement = Input.GetAxisRaw("Vertical");
 
-
+            if (Input.GetButton("Jump") || canJump || cantJump)
+            {
+                rb.gravityScale = 1f;
+            }
+            else if (!Input.GetButton("Jump") && !canJump && !cantJump)
+            {
+                rb.gravityScale = 1.8f;
+            }
 
             if (canJump | cantJump)
             {

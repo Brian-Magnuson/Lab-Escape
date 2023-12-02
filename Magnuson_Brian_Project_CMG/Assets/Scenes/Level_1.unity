@@ -6518,7 +6518,7 @@ MonoBehaviour:
   NoJumpLayer:
     serializedVersion: 2
     m_Bits: 128
-  rayLength: 0.01
+  rayLength: 0.1
   walkDelay: 0.3
   attackDelay: 0.2
 --- !u!114 &517535380
@@ -13720,7 +13720,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -70320925
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16

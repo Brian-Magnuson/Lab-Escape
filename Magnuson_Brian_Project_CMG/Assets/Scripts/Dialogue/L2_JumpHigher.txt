@@ -1,0 +1,3 @@
+[NAME=Sign][SPEAKERSPRITE=Sign] Hold [Space] to jump higher
+[NAME=Sign][SPEAKERSPRITE=Sign] Because when something barely within reach, you just gotta try a little harder
+[NAME=Player][SPEAKERSPRITE=Player] Words to live by
