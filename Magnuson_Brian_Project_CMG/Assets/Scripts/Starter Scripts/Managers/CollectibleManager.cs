@@ -8,7 +8,7 @@ using System;
 public class CollectibleManager : MonoBehaviour
 {
     [SerializeField] private TMP_Text collectibles;
-    [SerializeField] private static int collected;
+    [SerializeField] public static int collected;
 
     // Start is called before the first frame update
     void Start()
